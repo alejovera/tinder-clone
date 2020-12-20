@@ -22,10 +22,10 @@ function SwipeButtons() {
                 <IconButton className="swipeButtons__star">
             <StarRateIcon fontSize="large" />
                 </IconButton>
-            <IconButton className="swipeButtons__light">
+            <IconButton className="swipeButtons__right">
                 <FavoriteIcon fontSize="large" />
             </IconButton>
-            <IconButton className="swipeButtons__">
+            <IconButton className="swipeButtons__light">
                 <FlashOnIcon fontSize="large" />
             </IconButton>
         </div>
