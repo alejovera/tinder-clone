@@ -12,12 +12,12 @@ function Header({ backButton }) {
     return (
         <div className="header">
             {backButton ? (
-                <IconButton onClick={() => history.replace(backButton)}>
+                <IconButton className="header__iconContainer" onClick={() => history.replace(backButton)}>
                     <ArrowBackIosIcon fontSize="large" className="header__arrowback" />
                 </IconButton>
             ) : (
-                <IconButton>
-                    <PersonIcon fontSize="large" className="header__icon" />
+                <IconButton className="header__iconContainer">
+                    <PersonIcon fontSize="large" className="header__icons" />
                 </IconButton>
             )}
    
@@ -25,7 +25,7 @@ function Header({ backButton }) {
                 <img className="header__logo" src="https://1000logos.net/wp-content/uploads/2018/07/tinder-logo.png" alt="Tinder Logo" />
             </Link>
             <Link to="/chat">
-                <IconButton>
+                <IconButton className="header__iconContainer">
                     <ForumIcon className="header__icons" fontSize="large" />
                 </IconButton>
             </Link>

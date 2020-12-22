@@ -26,7 +26,6 @@ function ChatScreen() {
         setInput('')
     }
 
-
     return (
         <div className="chatScreen">
             <p className="chatScreen__timestamp">HAS MATCHEADO CON MARK EL 10/8/20</p>

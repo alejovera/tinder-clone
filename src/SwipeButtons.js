@@ -13,20 +13,24 @@ import './SwipeButtons.css'
 function SwipeButtons() {
     return (
         <div className="swipeButtons">
-            <IconButton className="swipeButtons__repeat">
-                <ReplayIcon fontSize="large" />
+            <IconButton className="swipeButtons__container">
+                <ReplayIcon className="swipeButtons__repeat" fontSize="large" />
             </IconButton>
-            <IconButton className="swipeButtons__left">
-                <CloseIcon fontSize="large" />
+
+            <IconButton className="swipeButtons__container" >
+                <CloseIcon className="swipeButtons__left" fontSize="large" />
             </IconButton>
-                <IconButton className="swipeButtons__star">
-            <StarRateIcon fontSize="large" />
-                </IconButton>
-            <IconButton className="swipeButtons__right">
-                <FavoriteIcon fontSize="large" />
+
+            <IconButton className="swipeButtons__container" >
+            <StarRateIcon className="swipeButtons__star" fontSize="large" />
             </IconButton>
-            <IconButton className="swipeButtons__light">
-                <FlashOnIcon fontSize="large" />
+
+            <IconButton className="swipeButtons__container" >
+                <FavoriteIcon className="swipeButtons__right" fontSize="large" />
+            </IconButton>
+            
+            <IconButton className="swipeButtons__container" >
+                <FlashOnIcon className="swipeButtons__light" fontSize="large" />
             </IconButton>
         </div>
     )

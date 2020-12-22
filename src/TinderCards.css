@@ -6,7 +6,7 @@
     height: 60vh;
     border-radius: 20px;
     background-size: cover;
-    background-position: center;
+    background-position: initial;
     box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.3);
 }
 .card > h3 {

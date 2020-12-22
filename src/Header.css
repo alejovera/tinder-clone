@@ -8,5 +8,20 @@
     height: 40px;
 }
 .header__icons{
-    padding: 20px;
+    /* padding: 20px; */
+    padding: 10px;
+}
+.header__icons:hover {
+    color: white;
+}
+.header__arrowback:hover {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.header__iconContainer {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    margin-top: 5px !important;
+    padding: 0.3em !important;
 }
