@@ -1,5 +1,6 @@
 import React from 'react';
 import './Chat.css';
+<<<<<<< HEAD
 import Avatar from '@material-ui/core/Avatar';
 import { Link } from 'react-router-dom';
 
@@ -8,6 +9,16 @@ function Chat({ name, message, profilePic, timestamp }) {
         <Link to={`/chat/${name}`}>  
           <div className="chat">
                 <Avatar className='chat__image' alt={name} src={profilePic} />
+=======
+import Avatar from "@material-ui/core/Avatar";
+import { Link } from 'react-router-dom';
+
+function Chat({name, message, timestamp, profilePic}) {
+    return (
+        <Link to={`/chat/${name}`}> 
+            <div className="chat">
+                <Avatar className="chat__image" alt={name} src={profilePic} />
+>>>>>>> version2
                 <div className="chat__details">
                     <h2>{name}</h2>
                     <p>{message}</p>

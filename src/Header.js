@@ -1,10 +1,11 @@
 import React from 'react';
 import './Header.css';
+import tinder_logo from './assets/tinder_logo.png';
 import PersonIcon from '@material-ui/icons/Person';
 import ForumIcon from '@material-ui/icons/Forum';
 import IconButton from '@material-ui/core/IconButton';
-import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
-import { Link, useHistory } from 'react-router-dom';
+import ArrowBackIosIcon from "@material-ui/icons/ArrowBackIos";
+import { Link, useHistory } from "react-router-dom";
 
 function Header({ backButton }) {
     const history = useHistory();
@@ -17,16 +18,16 @@ function Header({ backButton }) {
                 </IconButton>
             ) : (
                 <IconButton className="header__iconContainer">
-                    <PersonIcon fontSize="large" className="header__icons" />
+                    <PersonIcon className="header__icon" fontSize="large" />
                 </IconButton>
             )}
-   
+            
             <Link to="/">
-                <img className="header__logo" src="https://1000logos.net/wp-content/uploads/2018/07/tinder-logo.png" alt="Tinder Logo" />
+                <img src={tinder_logo} className="header__logo" alt="tinder_logo" />
             </Link>
             <Link to="/chat">
                 <IconButton className="header__iconContainer">
-                    <ForumIcon className="header__icons" fontSize="large" />
+                    <ForumIcon className="header__icon" fontSize="large" />
                 </IconButton>
             </Link>
         </div>

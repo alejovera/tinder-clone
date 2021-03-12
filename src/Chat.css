@@ -4,11 +4,14 @@
     justify-content: space-between;
     padding: 20px;
     height: 70px;
-    border: 1px solid #fafafa;
+    border-bottom: 1px solid #fafafa;
 }
 a {
     text-decoration: none;
     color: inherit;
+}
+.chat__image {
+    margin-right: 20px;
 }
 .chat__details {
     flex: 1;
@@ -41,4 +44,5 @@ a {
     background-color: white;
     font-weight: bolder;
     color: #fe3d71;
+}
 }
