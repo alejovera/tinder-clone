@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #f9f9f9;
+}
+.header__logo {
+    height: 40px;
+    object-fit: contain;
+}
+.header__icon {
+    padding: 10px;
+}
+.header__icon:hover {
+    color: white;
+}
+.header__arrowback:hover {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.header__iconContainer {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    margin-top: 1px !important;
+    padding: 0.3em !important;
+}
